@@ -1,0 +1,12 @@
+## Interface: 11200
+## Title: |cffff9e38Auras|r |cffffd6a8[Fostercare5988]|r
+## Notes: Watched auras, a light WeakAuras: your chosen buffs and your target's debuffs, each its own icon with the time left. /auras
+## Author: Fostercare5988
+## Version: 1.1.0
+## SavedVariablesPerCharacter: AurasDB
+## LoadSavedVariablesFirst: 1
+Core.lua
+Watched.lua
+LossOfControl.lua
+List.lua
+Page.lua
