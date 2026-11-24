@@ -12,8 +12,7 @@ if AurasDB.lossOfControl == nil then AurasDB.lossOfControl = true end
 AurasDB.groups = AurasDB.groups or { { name = "General", where = "all" } }
 
 -- The countdown look (UnitFrames' too): red tenths under 5 s, yellow under
--- 10 s, then s/m/h/d. The client counts down while the player's
--- countdownForCooldowns is 1 (the Cooldown section; read, never set).
+-- 10 s, then s/m/h/d. The client counts down (the Cooldown section).
 local Up = Enum.NumericRuleFormatRounding.Up
 local countdown = C_StringUtil.CreateNumericRuleFormatter()
 countdown:SetBreakpoints({
